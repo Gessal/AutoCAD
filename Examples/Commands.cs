@@ -6,7 +6,7 @@ using Autodesk.Windows;
 
 namespace MyAutoCADDll
 {
-    public class Commands : IExtensionApplication
+    public class RibbonExample : IExtensionApplication
     {
         [CommandMethod("TestCommand")]
         public void MyCommand()
